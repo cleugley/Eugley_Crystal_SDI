@@ -1,12 +1,13 @@
-// Variables of Different Types, Numbers, Booleans, and Strings
+// Arrays
 
-var age = 38; //Number variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];  //0,1,2,3
 
-var isStudent = false; //boolean variable
+console.log(muppetNames[1]);
 
-var firstName = "Crystal";
+muppetNames[1] = "rizzo";
 
-var phase = 'I don\'t know \n You\'ll have to speak with the professor';
+console.log(muppetNames[1]);
+
 
 
 
