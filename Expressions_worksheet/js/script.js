@@ -45,4 +45,16 @@ var weeklyTotals = [435.23, 235.32, 324.50, 216.10, 156.34];
 var total = weeklyTotals [0] + weeklyTotals [1] + weeklyTotals [2] + weeklyTotals [3] + weeklyTotals [4];
 var average = total/5
 
-console.log("You have spent a total of $"+total+ " "+ "on groceries over 5 weeks. That is an average of $"+average+" "+ "per week.")
+console.log("You have spent a total of $"+total+ " "+ "on groceries over 5 weeks. That is an average of $"+average+" "+ "per week.");
+
+//Discounts
+
+var originalPrice = 2999;
+var discount = 20;
+var description = "shirt";
+var salesTax = 7;
+
+var discountPrice = originalPrice - originalPrice/discount;
+var itemWithTax = discountPrice + discountPrice/salesTax;
+
+console.log("Your "+description+ " " +"was originally $"+ originalPrice +" "+", but after a "+discount+"% discount, it is now "+discountPrice+" "+"without tax and $"+itemWithTax+" with tax." );
