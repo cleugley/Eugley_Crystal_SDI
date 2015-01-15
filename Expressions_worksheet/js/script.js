@@ -22,4 +22,18 @@ var age = sparkysAge * humanYears;
 
 console.log("Sparky is " + age + " " + "human years old which is " + sparkysAge + " " + "in dog years.");
 
+// Problem 2: Slice of Pie Part 1
 
+var slices = 10;
+var people = 12;
+var pizzas = 6;
+
+var slicesPerPerson = pizzas * slices/people;
+
+console.log("Each person ate " +slicesPerPerson+ " " + "slices of pizza at the party.");
+
+//Problem 3: Slices of Pie Part II
+
+var leftOver = slices*pizzas - slicesPerPerson*people;
+
+console.log("Sparky got " +leftOver+ " "+ "slices of pizza.");
