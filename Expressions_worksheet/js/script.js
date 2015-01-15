@@ -37,3 +37,12 @@ console.log("Each person ate " +slicesPerPerson+ " " + "slices of pizza at the p
 var leftOver = slices*pizzas - slicesPerPerson*people;
 
 console.log("Sparky got " +leftOver+ " "+ "slices of pizza.");
+
+//Average Shopping Bill
+
+var weeklyTotals = [435.23, 235.32, 324.50, 216.10, 156.34];
+
+var total = weeklyTotals [0] + weeklyTotals [1] + weeklyTotals [2] + weeklyTotals [3] + weeklyTotals [4];
+var average = total/5
+
+console.log("You have spent a total of $"+total+ " "+ "on groceries over 5 weeks. That is an average of $"+average+" "+ "per week.")
