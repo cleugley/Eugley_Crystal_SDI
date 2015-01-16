@@ -18,3 +18,5 @@ alert("Your total cost before tax at store 2 is "+totalPrice2); //Total Price be
 
 alert ("Your before tax price at Store 1 is " + totalPrice + " " + "Your before tax price at Store 2 is " + totalPrice2); //This will display a comparison of prices for Store 1 and Store 2
 console.log("Your before tax price at Store 1 is " + totalPrice + " " +"Your before tax price at Store 2 is " + totalPrice2);
+
+//I typed in 70 for the first dog food price and 7 for the discount percent and the total was 65.1 Then I put 70 for the second bag of dog food and 15 for the discount and got 59.5. So store 2 has the dog food cheaper than store 1 and this was inputted to the customer in the form of an alert. 
