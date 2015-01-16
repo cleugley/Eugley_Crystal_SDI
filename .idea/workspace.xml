@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf73d8c-47f7-476d-8c48-b297a4fdcd4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Eugley_Crystal_Expresions_Assignment/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Eugley_Crystal_Expresions_Assignment/js/script.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eugley_Crystal_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Eugley_Crystal_Expressions_Assignment/js/script.js" />
     </list>
     <ignored path="Eugley_Crystal_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Eugley_Crystal_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16429354" vertical-offset="0" max-vertical-offset="913">
-              <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+            <state vertical-scroll-proportion="0.27929902" vertical-offset="0" max-vertical-offset="913">
+              <caret line="12" column="133" selection-start-line="12" selection-start-column="133" selection-end-line="12" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -400,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Eugley_Crystal_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16429354" vertical-offset="0" max-vertical-offset="913">
-          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+        <state vertical-scroll-proportion="0.27929902" vertical-offset="0" max-vertical-offset="913">
+          <caret line="12" column="133" selection-start-line="12" selection-start-column="133" selection-end-line="12" selection-end-column="133" />
           <folding />
         </state>
       </provider>
