@@ -16,5 +16,5 @@ var totalPrice2 = dogFoodPrice2 - foodDiscount2*dogFoodPrice2/100; //The total c
 
 alert("Your total cost before tax at store 2 is "+totalPrice2); //Total Price before taxes at Store will be displayed
 
-alert ("Your before tax price at Store 1 is " + totalPrice + "Your before tax price at Store 2 is " + totalPrice2); //This will display a comparison of prices for Store 1 and Store 2
-console.log("Your before tax price at Store 1 is " + totalPrice + "Your before tax price at Store 2 is " + totalPrice2);
+alert ("Your before tax price at Store 1 is " + totalPrice + " " + "Your before tax price at Store 2 is " + totalPrice2); //This will display a comparison of prices for Store 1 and Store 2
+console.log("Your before tax price at Store 1 is " + totalPrice + " " +"Your before tax price at Store 2 is " + totalPrice2);
