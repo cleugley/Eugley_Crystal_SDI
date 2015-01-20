@@ -20,7 +20,7 @@ var sneakerLift = 2;
 if(kidHeight + sneakerLift > minHeight){
     console.log("You can ride the coaster!");
 
-} */
+}
 
 var kidHeight = 49;
 var minHeight = 48;
@@ -29,4 +29,18 @@ if (kidHeight > minHeight){
     console.log("You can ride the coaster!");
 } else{
     console.log("Sorry kid, you've got some growing to do first!");
+} */
+
+// Conditional Logic - Logical Operators
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var wonLottery = true;
+
+//if the price of the phone is less than our budget AND if our paycheck is over 300
+if(iPhonePrice < budget ^ wonLottery === true){
+    console.log("We can buy the phone!");
+}else{
+    console.log("No Phone for you!");
 }
+
