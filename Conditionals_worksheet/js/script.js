@@ -36,3 +36,6 @@ if(){
     console.log("You have a " +gradePercent + " , which means you have earned a(n)" +  + "in the class!");
 }
 
+// Problem 3: The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older), under 10 you get the discounted price of $7.00. In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price. Determine which of the two prices the customer is eligible for.
+// Given: Time of Movie (Assume whole numbers here); Age of the customer
+//Result to Print Out: "The ticket price is X"
