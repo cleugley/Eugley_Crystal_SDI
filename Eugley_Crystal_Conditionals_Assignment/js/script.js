@@ -20,6 +20,7 @@ if(isNaN(height)){
 if(height === ""){
     height = prompt("Again, Please enter your age!")
 }//Checking to make sure that the user actually entered something and didn't leave the field blank.  And re-prompting if necessary.
+
 var weight = prompt("Please enter your weight in pounds"); //Prompting the user to enter their weight
 if(isNaN(weight)){
     weight = prompt("Please only enter numbers. What is your age!");
@@ -46,9 +47,9 @@ if(height < 60){
 }//This conditional statement is verifying that they are tall enough to see over the bar counter if so they can enter the bar.
 var numOfDrinks;
 
-numOfDrinks = (weight >101 && weight <165) ? "You can have 4 drinks" : "You can have NO Drinks!";
+numOfDrinks = (weight >101 && weight <165 + age) ? "You can have 4 drinks" : "You can have NO Drinks!";
 console.log(numOfDrinks);//This is the number of drinks that the person will be allowed if they fall in the weight restricted category. If they are outside the weight restriction they cannot drink in the bar.
 
 var notAllowed;
-notAllowed = (age>21 || weight >100 || height >60) ? "You are not allowed in the bar because you do not meet the requirements" : "Come on in and have a drink";
-alert(notAllowed);//Sending an alert to the user telling them that they can either enter the bar and have a drink or if they do not meet all of the requirements for my bar. 
+notAllowed = (age>21 && weight >100 && height >60) ? "Come on in and have a drink" : "You do not meet one of our requirements...You are not allowed in our bar!";
+alert(notAllowed);//Sending an alert to the user telling them that they can either enter the bar and have a drink or if they do not meet all of the requirements for my bar.
