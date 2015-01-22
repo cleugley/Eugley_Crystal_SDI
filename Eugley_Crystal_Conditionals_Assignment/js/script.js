@@ -25,5 +25,7 @@ if(height < 60){
 }else{
     console.log("You may ENTER you can see over the bar!")
 }
-var numOfDrinks = weight+height;
-console.log("Doing the math you are allowed "+numOfDrinks+" at our bar tonight!")
+var numOfDrinks;
+
+numOfDrinks = (weight >101 && weight <165) ? "You can have 4 drinks" : "You can have NO Drinks!";
+console.log(numOfDrinks);
