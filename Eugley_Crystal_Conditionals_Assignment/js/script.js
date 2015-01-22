@@ -47,4 +47,8 @@ if(height < 60){
 var numOfDrinks;
 
 numOfDrinks = (weight >101 && weight <165) ? "You can have 4 drinks" : "You can have NO Drinks!";
-console.log(numOfDrinks);//This is the number of drinks that the person will be allowed if they fall in the weight restricted category. If they are outside the weight restriction they cannot drink in the bar. 
+console.log(numOfDrinks);//This is the number of drinks that the person will be allowed if they fall in the weight restricted category. If they are outside the weight restriction they cannot drink in the bar.
+
+var notAllowed;
+notAllowed = (age>21 || weight >100 || height >60) ? "You are not allowed in the bar because you do not meet the requirements" : "Come on in and have a drink";
+alert(notAllowed);//Sending an alert to the user telling them that they can either enter the bar and have a drink or if they do not meet all of the requirements for my bar. 
