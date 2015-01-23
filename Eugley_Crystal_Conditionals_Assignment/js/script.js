@@ -53,3 +53,6 @@ console.log(numOfDrinks);//This is the number of drinks that the person will be 
 var notAllowed;
 notAllowed = (age>21 && weight >100 && height >60) ? "Come on in and have a drink" : "You do not meet one of our requirements...You are not allowed in our bar!";
 alert(notAllowed);//Sending an alert to the user telling them that they can either enter the bar and have a drink or if they do not meet all of the requirements for my bar.
+
+//code results
+//I entered 22 for the age, 66 for height and 50 for weight and I got the message "You do not meet one of our requirements...You are not allowed in our bar! Then I reloaded teh page and entered 22 for the age 66 for height and 125 for weight and I received the message "Come on in and have a drink". I did everyone possible combo so that I could make sure that I got the correct alert after entering my information. 
