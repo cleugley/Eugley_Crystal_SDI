@@ -3,17 +3,15 @@
  */
 
 
-// Procedures
+// Anonymous Functions - define then call function
 
-//this is a function
-function calcArea(width, height){
+var calcArea = function(width, height){
     var area = width * height;
     return area;
-}
+};
 
-//this is a procedure
-function calcArea(width, height){
-    var area = width * height;
-    console.log(area); //no return
-}
+var a  = calcArea(20, 30);
+
+console.log(a);
+
 
