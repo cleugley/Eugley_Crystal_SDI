@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcf73d8c-47f7-476d-8c48-b297a4fdcd4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/js/script.js" afterPath="$PROJECT_DIR$/Functions/js/script.js" />
-    </list>
+    <list default="true" id="bcf73d8c-47f7-476d-8c48-b297a4fdcd4a" name="Default" comment="" />
     <ignored path="Eugley_Crystal_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,36 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Eugley_Crystal_Conditionals_Assignment/js/script.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="945">
-              <caret line="57" column="416" selection-start-line="57" selection-start-column="416" selection-end-line="57" selection-end-column="416" />
+            <state vertical-scroll-proportion="0.56792873" vertical-offset="0" max-vertical-offset="898">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/index.html">
+        <entry file="file://$PROJECT_DIR$/Functions_worksheet/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
               <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.050111357" vertical-offset="0" max-vertical-offset="898">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +78,8 @@
         <option value="$PROJECT_DIR$/Functions/js/js.js" />
         <option value="$PROJECT_DIR$/Functions/index.html" />
         <option value="$PROJECT_DIR$/Functions/js/script.js" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/index.html" />
+        <option value="$PROJECT_DIR$/Functions_worksheet/js/script.js" />
       </list>
     </option>
   </component>
@@ -155,7 +143,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,7 +157,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions" />
+              <option name="myItemId" value="Functions_worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,7 +286,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,7 +304,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -334,7 +322,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -358,7 +346,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,7 +554,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="945">
           <caret line="57" column="416" selection-start-line="57" selection-start-column="416" selection-end-line="57" selection-end-column="416" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,8 +576,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050111357" vertical-offset="0" max-vertical-offset="898">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions_worksheet/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56792873" vertical-offset="0" max-vertical-offset="898">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
