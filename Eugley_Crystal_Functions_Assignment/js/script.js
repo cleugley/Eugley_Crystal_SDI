@@ -15,8 +15,17 @@
 // We will do calculations for a person who is looking to buy a house.
 
 var listPrice = prompt("Please enter the $ amount on the listing price");
+while(listPrice==="" || isNaN(listPrice)){
+    listPrice = prompt("Please do not leave blank and only use numbers!\nPlease type in listPrice");
+}
 var intRate = prompt ("Please enter the interest rate of your loan. (Please enter a whole number. ex. 6.25% you would put .0625");
+while(intRate==="" || isNaN(intRate)){
+    intRate = prompt("Please do not leave blank and only use numbers! \nPlease type in the interest rate.")
+}
 var loanTerm = prompt ("Please enter the terms of the loan. (i.e. How many years you are financing for");
+while(loanTerm=== || isNaN(loanTerm)){
+    loanTerm = prompt("Please do not leave blank and only use number! \n Please type in the interest rate.")
+}
 
 function monthlyPayment(listPrice, intRate, loanTerm){
     var moPay = listPrice/loanTerm * intRate;
