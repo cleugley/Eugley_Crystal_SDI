@@ -12,30 +12,18 @@
 // Main code variables are not used inside of functions
 // At least 3 user prompts in code that are all correctly validated
 
-// We will do calculations for a person who is looking to buy a house.
+// First we will calculate the surface area of a cube
 
-var listPrice = prompt("Please enter the $ amount on the listing price");
-while(listPrice==="" || isNaN(listPrice)){
-    listPrice = prompt("Please do not leave blank and only use numbers!\nPlease type in listPrice");
+var sideLength = prompt("Please enter the length of one side of the cube"); //prompting the user to enter the length of one side of the cube for the calculation
+while(sideLength==="" || isNaN(sideLength)){
+    sideLength = prompt("Please do not leave blank and only use numbers!\nPlease type in the length of one side");
+} //testing to make sure that the user enters a number for the length of one side of the cube. If not then re-prompting the user to enter a number.
+
+function calcArea(sideLength){
+    var area = (6*sideLength)*2;
+    return area;
+
 }
-var intRate = prompt ("Please enter the interest rate of your loan. (Please enter a whole number. ex. 6.25% you would put .0625");
-while(intRate==="" || isNaN(intRate)){
-    intRate = prompt("Please do not leave blank and only use numbers! \nPlease type in the interest rate.")
-}
-var loanTerm = prompt ("Please enter the terms of the loan. (i.e. How many years you are financing for");
-while(loanTerm==="" || isNaN(loanTerm)){
-    loanTerm = prompt("Please do not leave blank and only use number! \n Please type in the interest rate.")
-}
+var results = calcArea(sideLength);
+console.log(results);
 
-function monthlyPayment(listingPrice, interestRate, loanTerms){
-    var moPay = Math.round( listingPrice/loanTerms * interestRate);
-    return moPay;
-}
-
-
-// actual formula for mortgage payment calculation
-// M=P i(1+i)n/(1+i)n-1
-//M = monthly payment P = principal i=interest rate n=number of payments
-
-monthlyPayment(listPrice, intRate, loanTerm);
-console.log(monthlyPayment);
