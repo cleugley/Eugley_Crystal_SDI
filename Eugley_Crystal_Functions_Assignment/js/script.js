@@ -23,12 +23,12 @@ while(intRate==="" || isNaN(intRate)){
     intRate = prompt("Please do not leave blank and only use numbers! \nPlease type in the interest rate.")
 }
 var loanTerm = prompt ("Please enter the terms of the loan. (i.e. How many years you are financing for");
-while(loanTerm=== || isNaN(loanTerm)){
+while(loanTerm==="" || isNaN(loanTerm)){
     loanTerm = prompt("Please do not leave blank and only use number! \n Please type in the interest rate.")
 }
 
-function monthlyPayment(listPrice, intRate, loanTerm){
-    var moPay = listPrice/loanTerm * intRate;
+function monthlyPayment(listingPrice, interestRate, loanTerms){
+    var moPay = Math.round( listingPrice/loanTerms * interestRate);
     return moPay;
 }
 
@@ -37,3 +37,5 @@ function monthlyPayment(listPrice, intRate, loanTerm){
 // M=P i(1+i)n/(1+i)n-1
 //M = monthly payment P = principal i=interest rate n=number of payments
 
+monthlyPayment(listPrice, intRate, loanTerm);
+console.log(monthlyPayment);
