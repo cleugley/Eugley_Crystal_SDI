@@ -19,12 +19,14 @@ while(sideLength==="" || isNaN(sideLength)){
     sideLength = prompt("Please do not leave blank and only use numbers!\nPlease type in the length of one side");
 } //testing to make sure that the user enters a number for the length of one side of the cube. If not then re-prompting the user to enter a number.
 
-function calcCube(cubeSideLength){
+var calcCube = function(cubeSideLength){
     var area = (6*cubeSideLength)*2;
     return area;
+} //using anonymous function to determine the area of the cube
 
-}//Computing the calculation using the user input of the side of the cube. This function will return the area result to the main code.
-var cubeResults = calcCube(sideLength);//catching the return area data
+var cubeResults= calcCube(sideLength); //retrieves the information from the function
+
+
 console.log(cubeResults); //Printing the results to the console from the users input
 alert("The area of your Cube is "+cubeResults+".");
 
@@ -37,6 +39,7 @@ while(radius==="" || isNaN(radius)){
 } //testing to make sure that the user enters a number for the radius of their sphere. If not then this will keep re-prompting the user until they do enter a number.
 
 //Calculating the surface area of the users sphere
+
 function calcSphere(sphereRadius){
     var sphereArea = Math.round((4*3.14*sphereRadius)*2);
     return sphereArea;
@@ -85,5 +88,5 @@ if(recResults > cubeResults && recResults > sphereResults){
 }
 
 /*
-* So in the first prompt I entered 5 and the Area of of cube was 60, and I was alerted that my area was 60 for the cube. In the second prompt I entered 5 and the area of my sphere is 126, In the length prompt I entered 5, in the width prompt I entered 6 and in the length prompt I entered 7 and my results were given to me in an alert and and the results were 214. After I clicked okay on that prompt it alerted me that the rectangular prism had the most surface area of the three items. 
+* So in the first prompt I entered 5 and the Area of of cube was 60, and I was alerted that my area was 60 for the cube. In the second prompt I entered 5 and the area of my sphere is 126, In the length prompt I entered 5, in the width prompt I entered 6 and in the length prompt I entered 7 and my results were given to me in an alert and and the results were 214. After I clicked okay on that prompt it alerted me that the rectangular prism had the most surface area of the three items.
 * */
