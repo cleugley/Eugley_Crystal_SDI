@@ -71,3 +71,19 @@ function calcRec(rectLength, rectWidth, rectHeight){
 var recResults = calcRec(recLength, recWidth, recHeight);
 console.log(recResults);
 alert("The area of your Rectangular Prism is "+recResults+".");
+
+// This is to tell the user which item has the largest surface area
+
+if(cubeResults > sphereResults && cubeResults>recResults){
+    alert ("The object with the greatest surface area is your cube")
+}
+if(sphereResults > cubeResults && sphereResults > recResults){
+    alert("The object with the greatest surface area is your Sphere")
+}
+if(recResults > cubeResults && recResults > sphereResults){
+    alert("The object with the greatest surface area is your Rectangular Prism.")
+}
+
+/*
+* So in the first prompt I entered 5 and the Area of of cube was 60, and I was alerted that my area was 60 for the cube. In the second prompt I entered 5 and the area of my sphere is 126, In the length prompt I entered 5, in the width prompt I entered 6 and in the length prompt I entered 7 and my results were given to me in an alert and and the results were 214. After I clicked okay on that prompt it alerted me that the rectangular prism had the most surface area of the three items. 
+* */
